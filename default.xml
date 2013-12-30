@@ -474,6 +474,8 @@
   <project path="device/motorola/msm8960dt-common" name="android_device_motorola_msm8960dt-common" remote="ose" revision="ose" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ose" revision="ose" />
+  <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ose" revision="ose" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ose" revision="ose" />
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" remote="ose" revision="ose" />
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose-caf" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
