@@ -48,6 +48,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/htc/msm7-common" name="SlimRoms/device_htc_m7-common" remote="github" revision="kk4.4" />
   <project path="device/htc/msm8960-common" name="SlimRoms/device_htc_msm8960-common" remote="github" revision="kk4.4" />
+  <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
   <project path="device/motorola/msm8960-common" name="SlimRoms/device_motorola_msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/samsung/d2-common" name="SlimRoms/device_samsung_d2-common" remote="github" revision="kk4.4" />
   <project path="device/samsung/jf-common" name="SlimRoms/device_samsung_jf-common" remote="github" revision="kk4.4" />
@@ -298,6 +299,7 @@
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
   <project path="kernel/htc/m7" name="SlimRoms/kernel_htc_m7" remote="github" revision="kk4.4" />
+  <project path="kernel/lge/msm8974" name="SlimRoms/kernel_lge_msm8974" remote="github" revision="kk4.4" />
   <project path="kernel/motorola/msm8960-common" name="SlimRoms/kernel_motorola_msm8960-common" remote="github" revision="kk4.4" />
   <project path="kernel/samsung/jf" name="SlimRoms/kernel_samsung_jf" remote="github" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
@@ -491,6 +493,10 @@
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ose" revision="ose" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="ose" revision="ose" />
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ose" revision="ose" />
+  <project path="device/lge/d800" name="android_device_lge_d800" remote="ose" revision="ose" />
+  <project path="device/lge/d801" name="android_device_lge_d801" remote="ose" revision="ose" />
+  <project path="device/lge/d802" name="android_device_lge_d802" remote="ose" revision="ose" />
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="ose" revision="ose" />
   <project path="device/motorola/msm8960dt-common" name="android_device_motorola_msm8960dt-common" remote="ose" revision="ose" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ose" revision="ose" />
@@ -512,4 +518,5 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
 </manifest>
