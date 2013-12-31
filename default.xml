@@ -483,6 +483,7 @@
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ose" revision="ose" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ose" revision="ose" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ose" revision="ose" />
+  <project path="device/htc/dlx" name="android_device_htc_dlx" remote="ose" revision="ose" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ose" revision="ose" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="ose" revision="ose" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ose" revision="ose" />
