@@ -506,6 +506,8 @@
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ose" revision="ose" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ose" revision="ose" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ose" revision="ose" />
+  <project path="device/motorola/xt1053" name="android_device_motorola_xt1053" remote="ose" revision="ose" />
+  <project path="device/motorola/xt1058" name="android_device_motorola_xt1058" remote="ose" revision="ose" />
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" remote="ose" revision="ose" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ose" revision="ose" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ose" revision="ose" />
