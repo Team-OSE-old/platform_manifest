@@ -49,6 +49,9 @@
   <project path="device/htc/msm7-common" name="SlimRoms/device_htc_m7-common" remote="github" revision="kk4.4" />
   <project path="device/htc/msm8960-common" name="SlimRoms/device_htc_msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/motorola/msm8960-common" name="SlimRoms/device_motorola_msm8960-common" remote="github" revision="kk4.4" />
+  <project path="device/samsung/jf-common" name="SlimRoms/device_samsung_jf-common" remote="github" revision="kk4.4" />
+  <project path="device/samsung/msm8960-common" name="SlimRoms/device_samsung_msm8960-common" remote="github" revision="kk4.4" />
+  <project path="device/samsung/qcom-common" name="SlimRoms/device_samsung_qcom-common" remote="github" revision="kk4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -287,6 +290,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="github" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
@@ -294,6 +298,7 @@
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
   <project path="kernel/htc/m7" name="SlimRoms/kernel_htc_m7" remote="github" revision="kk4.4" />
   <project path="kernel/motorola/msm8960-common" name="SlimRoms/kernel_motorola_msm8960-common" remote="github" revision="kk4.4" />
+  <project path="kernel/samsung/jf" name="SlimRoms/kernel_samsung_jf" remote="github" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -485,6 +490,12 @@
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ose" revision="ose" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ose" revision="ose" />
   <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" remote="ose" revision="ose" />
+  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="ose" revision="ose" />
+  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="ose" revision="ose" />
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose-caf" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
@@ -493,4 +504,5 @@
   <!-- TheMuppets -->
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
 </manifest>
