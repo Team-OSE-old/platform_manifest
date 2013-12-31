@@ -394,9 +394,7 @@
   <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="kk4.4" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4-caf" />
   <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="kk4.4" />
@@ -463,6 +461,8 @@
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="kk4.4-caf" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="kk4.4-caf" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="kk4.4-caf" />
