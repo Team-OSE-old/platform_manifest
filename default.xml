@@ -46,6 +46,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/htc/msm7-common" name="SlimRoms/device_htc_m7-common" remote="github" revision="kk4.4" />
+  <project path="device/htc/msm8960-common" name="SlimRoms/device_htc_msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/motorola/msm8960-common" name="SlimRoms/device_motorola_msm8960-common" remote="github" revision="kk4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -290,6 +292,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
+  <project path="kernel/htc/m7" name="SlimRoms/kernel_htc_m7" remote="github" revision="kk4.4" />
   <project path="kernel/motorola/msm8960-common" name="SlimRoms/kernel_motorola_msm8960-common" remote="github" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -471,6 +474,11 @@
   <project path="build" name="android_build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ose" revision="ose" />
+  <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="ose" revision="ose" />
+  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ose" revision="ose" />
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="ose" revision="ose" />
+  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ose" revision="ose" />
   <project path="device/motorola/msm8960dt-common" name="android_device_motorola_msm8960dt-common" remote="ose" revision="ose" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ose" revision="ose" />
@@ -484,5 +492,5 @@
 
   <!-- TheMuppets -->
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
-
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
 </manifest>
