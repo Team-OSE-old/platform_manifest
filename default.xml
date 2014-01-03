@@ -450,7 +450,6 @@
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="kk4.4" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="kk4.4" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="kk4.4" />
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
@@ -476,6 +475,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose-caf" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose-caf" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
   <project path="vendor/slim" name="vendor_slim" remote="ose" revision="ose" />
   <!-- Devices -->
