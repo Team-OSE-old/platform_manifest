@@ -474,7 +474,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose-caf" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="ose" revision="ose-caf" />
+  <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose-caf" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
   <project path="vendor/slim" name="vendor_slim" remote="ose" revision="ose" />
