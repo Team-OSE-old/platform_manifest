@@ -462,7 +462,6 @@
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="kk4.4-caf" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4-caf" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="kk4.4-caf" />
@@ -475,6 +474,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose-caf" />
+  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="ose" revision="ose-caf" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
   <project path="vendor/slim" name="vendor_slim" remote="ose" revision="ose" />
