@@ -11,6 +11,9 @@
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
 
+  <remote  name="omni"
+           fetch="git://github.com/omnirom/" />
+           
   <remote  name="ose"
            fetch="git://github.com/Team-OSE/" />
 
@@ -352,7 +355,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-
   <!-- CM -->
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
@@ -367,6 +369,8 @@
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
 
+  <!-- OMNI -->
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omni" revision="android-4.4" />
 
   <!-- SlimRoms -->
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
@@ -467,7 +471,6 @@
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="kk4.4-caf" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4-caf" />
 
-
   <!-- Team-OSE -->
   <project path="build" name="android_build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -510,7 +513,6 @@
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="ose" revision="ose" />
   <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" remote="ose" revision="ose" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="ose" revision="ose" />
-
 
   <!-- TheMuppets -->
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-11.0" />
