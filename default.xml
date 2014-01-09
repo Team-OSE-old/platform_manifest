@@ -480,7 +480,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
-  <project path="vendor/slim" name="vendor_slim" remote="ose" revision="ose" />
+  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
   <!-- Devices -->
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ose" revision="ose" />
   <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ose" revision="ose" />
