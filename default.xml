@@ -325,7 +325,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
@@ -463,39 +462,40 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
+  <project path="system/media" name="system_media" remote="ose" revision="ose" />
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
   <!-- Devices -->
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ose" revision="ose" />
-  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ose" revision="ose" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ose" revision="ose" />
-  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ose" revision="ose" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ose" revision="ose" />
-  <project path="device/htc/dlx" name="android_device_htc_dlx" remote="ose" revision="ose" />
-  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ose" revision="ose" />
-  <project path="device/htc/m7spr" name="android_device_htc_m7spr" remote="ose" revision="ose" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ose" revision="ose" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="ose" revision="ose" />
-  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="ose" revision="ose" />
-  <project path="device/lge/d800" name="android_device_lge_d800" remote="ose" revision="ose" />
-  <project path="device/lge/d801" name="android_device_lge_d801" remote="ose" revision="ose" />
-  <project path="device/lge/d802" name="android_device_lge_d802" remote="ose" revision="ose" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="ose" revision="ose" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="ose" revision="ose" />
-  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="ose" revision="ose" />
-  <project path="device/motorola/msm8960dt-common" name="android_device_motorola_msm8960dt-common" remote="ose" revision="ose" />
+  <project path="device/htc/dlx" name="device_htc_dlx" remote="ose" revision="ose" />
+  <project path="device/htc/m7att" name="device_htc_m7att" remote="ose" revision="ose" />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="ose" revision="ose" />
+  <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="ose" revision="ose" />
+  <project path="device/htc/m7ul" name="device_htc_m7ul" remote="ose" revision="ose" />
+  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="ose" revision="ose" />
+  <project path="device/lge/d800" name="device_lge_d800" remote="ose" revision="ose" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="ose" revision="ose" />
+  <project path="device/lge/d802" name="device_lge_d802" remote="ose" revision="ose" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="ose" revision="ose" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="ose" revision="ose" />
+  <project path="device/lge/vs980" name="device_lge_vs980" remote="ose" revision="ose" />
+  <project path="device/motorola/msm8960dt-common" name="device_motorola_msm8960dt-common" remote="ose" revision="ose" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
-  <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ose" revision="ose" />
-  <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ose" revision="ose" />
-  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ose" revision="ose" />
-  <project path="device/motorola/xt1053" name="android_device_motorola_xt1053" remote="ose" revision="ose" />
-  <project path="device/motorola/xt1058" name="android_device_motorola_xt1058" remote="ose" revision="ose" />
-  <project path="device/motorola/xt1060" name="android_device_motorola_xt1060" remote="ose" revision="ose" />
-  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="ose" revision="ose" />
-  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="ose" revision="ose" />
+  <project path="device/motorola/xt907" name="device_motorola_xt907" remote="ose" revision="ose" />
+  <project path="device/motorola/xt925" name="device_motorola_xt925" remote="ose" revision="ose" />
+  <project path="device/motorola/xt926" name="device_motorola_xt926" remote="ose" revision="ose" />
+  <project path="device/motorola/xt1053" name="device_motorola_xt1053" remote="ose" revision="ose" />
+  <project path="device/motorola/xt1058" name="device_motorola_xt1058" remote="ose" revision="ose" />
+  <project path="device/motorola/xt1060" name="device_motorola_xt1060" remote="ose" revision="ose" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="ose" revision="ose" />
+  <project path="device/samsung/d2mtr" name="device_samsung_d2mtr" remote="ose" revision="ose" />
+  <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="ose" revision="ose" />
+  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="ose" revision="ose" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="ose" revision="ose" />
+  <project path="device/samsung/jflteatt" name="device_samsung_jflteatt" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltecan" name="device_samsung_jfltecan" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltespr" name="device_samsung_jfltespr" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="ose" revision="ose" />
+  <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="ose" revision="ose" />
+  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="ose" revision="ose" />
 
   <!-- TheMuppets -->
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-11.0" />
