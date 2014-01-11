@@ -357,7 +357,6 @@
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
-  <project path="development" name="SlimRoms/android_development" remote="github" revision="kk4.4" />
   <project path="device/htc/msm7-common" name="SlimRoms/device_htc_m7-common" remote="github" revision="kk4.4" />
   <project path="device/htc/msm8960-common" name="SlimRoms/device_htc_msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
@@ -455,6 +454,7 @@
   <project path="build" name="android_build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="development" name="development" remote="ose" revision="ose" />
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose-caf" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose-caf" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
