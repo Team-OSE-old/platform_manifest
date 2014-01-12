@@ -456,6 +456,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose-caf" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose-caf" />
   <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="ose" revision="ose" />
+  <project path="packages/apps/OSEPapers" name="packages_apps_OSEPapers" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
