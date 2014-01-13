@@ -461,5 +461,6 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
+  <project path="device/motorola/xt926" name="SlimRoms/device_motorola_xt926" remote="github" revision="kk4.4" />
 
 </manifest>
