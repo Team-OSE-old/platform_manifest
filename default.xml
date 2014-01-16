@@ -463,7 +463,9 @@
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose-caf" />
   <project path="system/core" name="system_core" remote="ose" revision="ose-caf" />
   <project path="system/media" name="system_media" remote="ose" revision="ose" />
-  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
+  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
+    <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
+  </project>
   <!-- Devices -->
   <project path="device/htc/dlx" name="device_htc_dlx" remote="ose" revision="ose" />
   <project path="device/htc/m7att" name="device_htc_m7att" remote="ose" revision="ose" />
