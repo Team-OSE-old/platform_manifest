@@ -20,9 +20,6 @@
   <remote  name="ose"
            fetch="git://github.com/Team-OSE/" />
            
-  <remote  name="omni"
-           fetch="git://github.com/omnirom/" />
-
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
