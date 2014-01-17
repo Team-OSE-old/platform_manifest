@@ -14,7 +14,7 @@
   <remote  name="cos"
            fetch="git://github.com/ChameleonOS/" />
 
-  <remote  name="omn"
+  <remote  name="omni"
            fetch="git://github.com/omnirom/" />
 
   <remote  name="ose"
@@ -454,7 +454,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cos" revision="kitkat" />
 
   <!-- Omni -->
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omn" revision="android-4.4" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
 
   <!-- Team-OSE -->
   <project path="build" name="android_build" remote="ose" revision="ose" >
@@ -506,6 +506,9 @@
   <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="ose" revision="ose" />
   <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="ose" revision="ose" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="ose" revision="ose" />
+  <!-- Kernels -->
+  <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="ose" revision="ose" />
+  <project path="kernel/motorola/msm8960dt-common" name="kernel_motorola_msm8960dt-common" remote="ose" revision="ose" />
 
   <!-- TheMuppets -->
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-11.0" />
