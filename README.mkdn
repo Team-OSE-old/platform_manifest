@@ -5,28 +5,11 @@ Welcome to Team-OSE
 Getting Started
 ---------------
 
-To get started with Team-OSE, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
-
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
-
-If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the ose-caf branch which pulls for the effected packages
-the correct caf version for you.
 
 To initialize your local repository using the Team-OSE trees, use this command:
 
 
-for google, exynos and non qcom devices:
-
 	repo init -u git://github.com/Team-OSE/platform_manifest.git -b ose
-
-
-for qcom devices which are using CodeAuroraForum trees:
-
-	repo init -u git://github.com/Team-OSE/platform_manifest.git -b ose-caf
-
 
 
 Then sync up with this command:
