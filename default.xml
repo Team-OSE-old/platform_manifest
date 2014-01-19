@@ -341,7 +341,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cos" revision="kitkat" />
   
   <!-- CM -->
-  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-11.0" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
@@ -480,6 +479,7 @@
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="ose" revision="ose" />
   <project path="device/lge/mako" name="device_lge_mako" remote="ose" revision="ose" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="ose" revision="ose" />
+  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="ose" revision="ose" />
   <project path="device/motorola/msm8960dt-common" name="device_motorola_msm8960dt-common" remote="ose" revision="ose" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
   <project path="device/motorola/xt907" name="device_motorola_xt907" remote="ose" revision="ose" />
