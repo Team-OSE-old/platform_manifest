@@ -461,6 +461,10 @@
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-hammer" remote="ose" revision="ose" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="sabermod_rom_toolchain" remote="ose" revision="4.9.0" />
+  <project path="scripts" name="OSE" remote="ose" revision="ose" >
+    <copyfile src="ose_nightly.sh" dest="ose_nightly.sh" />
+    <copyfile src="ose_weekly.sh" dest="ose_weekly.sh" />
+  </project>
   <project path="system/core" name="system_core" remote="ose" revision="ose" />
   <project path="system/media" name="system_media" remote="ose" revision="ose" />
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
