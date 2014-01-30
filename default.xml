@@ -379,7 +379,6 @@
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="kk4.4" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="kk4.4" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
@@ -454,6 +453,7 @@
   <project path="development" name="development" remote="ose" revision="ose" />
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
   <project path="packages/apps/OSEPapers" name="packages_apps_OSEPapers" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
@@ -493,6 +493,8 @@
   <project path="device/motorola/xt1060" name="device_motorola_xt1060" remote="ose" revision="ose" />
   <project path="device/samsung/d2lte" name="device_samsung_d2lte" remote="ose" revision="ose" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="ose" revision="ose" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="ose" revision="ose" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="ose" revision="ose" />
   <!-- Kernels -->
   <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="ose" revision="ose" />
   <project path="kernel/motorola/msm8960dt-common" name="kernel_motorola_msm8960dt-common" remote="ose" revision="ose" />
