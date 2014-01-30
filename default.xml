@@ -19,7 +19,7 @@
 
   <remote  name="ose"
            fetch="git://github.com/Team-OSE/" />
-           
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
@@ -339,7 +339,7 @@
 
   <!-- ChameleonOS -->
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cos" revision="kitkat" />
-  
+
   <!-- CM -->
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
@@ -359,10 +359,6 @@
   <project path="device/htc/msm7-common" name="SlimRoms/device_htc_m7-common" remote="github" revision="kk4.4" />
   <project path="device/htc/msm8960-common" name="SlimRoms/device_htc_msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
-  <project path="device/samsung/d2-common" name="SlimRoms/device_samsung_d2-common" remote="github" revision="kk4.4" />
-  <project path="device/samsung/jf-common" name="SlimRoms/device_samsung_jf-common" remote="github" revision="kk4.4" />
-  <project path="device/samsung/msm8960-common" name="SlimRoms/device_samsung_msm8960-common" remote="github" revision="kk4.4" />
-  <project path="device/samsung/qcom-common" name="SlimRoms/device_samsung_qcom-common" remote="github" revision="kk4.4" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
   <project path="external/chromium_org" name="SlimRoms/android_external_chromium_org" remote="github" revision="kk4.4" />
   <project path="external/clang" name="SlimRoms/android_external_clang" remote="github" revision="kk4.4"  />
@@ -507,6 +503,6 @@
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="wip" />
 
 </manifest>
