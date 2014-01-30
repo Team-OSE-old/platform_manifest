@@ -491,17 +491,8 @@
   <project path="device/motorola/xt1053" name="device_motorola_xt1053" remote="ose" revision="ose" />
   <project path="device/motorola/xt1058" name="device_motorola_xt1058" remote="ose" revision="ose" />
   <project path="device/motorola/xt1060" name="device_motorola_xt1060" remote="ose" revision="ose" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="ose" revision="ose" />
-  <project path="device/samsung/d2mtr" name="device_samsung_d2mtr" remote="ose" revision="ose" />
-  <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="ose" revision="ose" />
-  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="ose" revision="ose" />
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="ose" revision="ose" />
-  <project path="device/samsung/jflteatt" name="device_samsung_jflteatt" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltecan" name="device_samsung_jfltecan" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltespr" name="device_samsung_jfltespr" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="ose" revision="ose" />
-  <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="ose" revision="ose" />
-  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="ose" revision="ose" />
+  <project path="device/samsung/d2lte" name="device_samsung_d2lte" remote="ose" revision="ose" />
+  <project path="device/samsung/jflte" name="device_samsung_jflte" remote="ose" revision="ose" />
   <!-- Kernels -->
   <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="ose" revision="ose" />
   <project path="kernel/motorola/msm8960dt-common" name="kernel_motorola_msm8960dt-common" remote="ose" revision="ose" />
