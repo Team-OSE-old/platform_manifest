@@ -20,6 +20,9 @@
   <remote  name="ose"
            fetch="git://github.com/Team-OSE/" />
 
+  <remote  name="rq"
+           fetch="git://github.com/razrqcom-dev-team/" />
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
@@ -352,6 +355,13 @@
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omni" revision="android-4.4" />
 
+  <!-- razrqcom-dev-team -->
+  <project path="hardware/qcom/audio-msm8226" name="android_hardware_qcom_audio-msm8226" remote="rq" revision="cm-11.0" />
+  <project path="hardware/qcom/display-msm8226" name="android_hardware_qcom_display-msm8226" remote="rq" revision="cm-11.0" />
+  <project path="hardware/qcom/media-msm8226" name="android_hardware_qcom_media-msm8226" remote="rq" revision="cm-11.0" />
+  <project path="kernel/motorola/msm8226" name="android_kernel_motorola_msm8226" remote="rq" revision="cm-11.0" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="rq" revision="cm-11.0" />
+
   <!-- SlimRoms -->
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
@@ -478,9 +488,13 @@
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="ose" revision="ose" />
   <project path="device/lge/mako" name="device_lge_mako" remote="ose" revision="ose" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="ose" revision="ose" />
+  <project path="device/motorola/falcon" name="device_motorola_falcon" remote="ose" revision="ose" />
+  <project path="device/motorola/ghost" name="device_motorola_ghost" remote="ose" revision="ose" />
+  <project path="device/motorola/msm8226-common" name="device_motorola_msm8226-common" remote="ose" revision="ose" />
   <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="ose" revision="ose" />
   <project path="device/motorola/msm8960dt-common" name="device_motorola_msm8960dt-common" remote="ose" revision="ose" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
+  <project path="device/motorola/vanquish" name="device_motorola_vanquish" remote="ose" revision="ose" />
   <project path="device/motorola/xt907" name="device_motorola_xt907" remote="ose" revision="ose" />
   <project path="device/motorola/xt925" name="device_motorola_xt925" remote="ose" revision="ose" />
   <project path="device/motorola/xt926" name="device_motorola_xt926" remote="ose" revision="ose" />
@@ -501,7 +515,6 @@
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-11.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="wip" />
 
