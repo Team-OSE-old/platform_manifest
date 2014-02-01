@@ -496,11 +496,6 @@
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
   <project path="device/motorola/vanquish" name="device_motorola_vanquish" remote="ose" revision="ose" />
   <project path="device/motorola/xt907" name="device_motorola_xt907" remote="ose" revision="ose" />
-  <project path="device/motorola/xt925" name="device_motorola_xt925" remote="ose" revision="ose" />
-  <project path="device/motorola/xt926" name="device_motorola_xt926" remote="ose" revision="ose" />
-  <project path="device/motorola/xt1053" name="device_motorola_xt1053" remote="ose" revision="ose" />
-  <project path="device/motorola/xt1058" name="device_motorola_xt1058" remote="ose" revision="ose" />
-  <project path="device/motorola/xt1060" name="device_motorola_xt1060" remote="ose" revision="ose" />
   <project path="device/samsung/d2lte" name="device_samsung_d2lte" remote="ose" revision="ose" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="ose" revision="ose" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="ose" revision="ose" />
