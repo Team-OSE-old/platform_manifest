@@ -371,8 +371,7 @@
   <project path="hardware/qcom/display-msm8226" name="android_hardware_qcom_display-msm8226" remote="rq" revision="cm-11.0" />
   <project path="hardware/qcom/media-msm8226" name="android_hardware_qcom_media-msm8226" remote="rq" revision="cm-11.0" />
   <project path="kernel/motorola/msm8226" name="android_kernel_motorola_msm8226" remote="rq" revision="cm-11.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="rq" revision="cm-11.0" />
-
+  
   <!-- SlimRoms -->
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
@@ -532,6 +531,7 @@
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-11.0" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-11.0" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-11.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="wip" />
