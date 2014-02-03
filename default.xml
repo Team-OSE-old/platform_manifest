@@ -464,7 +464,7 @@
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="kk4.4-caf" />
 
   <!-- Team-OSE -->
-  <project path="build" name="android_build" remote="ose" revision="ose" >
+  <project path="build" name="build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="development" remote="ose" revision="ose" />
