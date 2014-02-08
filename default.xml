@@ -7,12 +7,11 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <remote  name="github"
-           fetch="git://github.com/"
-           review="https://gerrit.slimroms.net/"/>
-
   <remote  name="cos"
            fetch="git://github.com/ChameleonOS/" />
+
+  <remote  name="gh"
+           fetch="git://github.com/" />
 
   <remote  name="omni"
            fetch="git://github.com/omnirom/" />
@@ -23,12 +22,17 @@
   <remote  name="rq"
            fetch="git://github.com/razrqcom-dev-team/" />
 
+  <remote  name="slim"
+           fetch="git://github.com/SlimRoms/"
+           review="https://gerrit.slimroms.net/"/>
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-j="16" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -244,7 +248,6 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/rs" name="SlimRoms/frameworks_rs" remote="github" revision="kk4.4" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
@@ -344,22 +347,8 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cos" revision="kitkat" />
 
   <!-- CM -->
-  <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/media-caf-new" name="android_hardware_qcom_media-caf-new" remote="cm" revision="cm-11.0" />
-  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/hlte" name="android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
 
   <!-- OmniRom -->
@@ -367,101 +356,96 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" revision="android-4.4" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omni" revision="android-4.4" />
 
-  <!-- razrqcom-dev-team -->
-  <project path="hardware/qcom/audio-msm8226" name="android_hardware_qcom_audio-msm8226" remote="rq" revision="cm-11.0" />
-  <project path="hardware/qcom/display-msm8226" name="android_hardware_qcom_display-msm8226" remote="rq" revision="cm-11.0" />
-  <project path="hardware/qcom/media-msm8226" name="android_hardware_qcom_media-msm8226" remote="rq" revision="cm-11.0" />
-  <project path="kernel/motorola/msm8226" name="android_kernel_motorola_msm8226" remote="rq" revision="cm-11.0" />
-
   <!-- SlimRoms -->
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
-  <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
-  <project path="device/htc/m7-common" name="SlimRoms/device_htc_m7-common" remote="github" revision="kk4.4" />
-  <project path="device/htc/msm8960-common" name="SlimRoms/device_htc_msm8960-common" remote="github" revision="kk4.4" />
-  <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
-  <project path="device/samsung/smdk4412-common" name="SlimRoms/device_samsung_smdk4412-common" remote="github" revision="kk4.4" />
-  <project path="device/samsung/tuna" name="SlimRoms/device_samsung_tuna" remote="github" revision="kk4.4" />
-  <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
-  <project path="external/chromium_org" name="SlimRoms/android_external_chromium_org" remote="github" revision="kk4.4" />
-  <project path="external/clang" name="SlimRoms/android_external_clang" remote="github" revision="kk4.4"  />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="kk4.4"  />
-  <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4"  />
-  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="kk4.4" />
-  <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
-  <project path="external/llvm" name="SlimRoms/android_external_llvm" remote="github" revision="kk4.4" />
-  <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="kk4.4" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="kk4.4" />
-  <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="kk4.4" />
-  <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
-  <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
-  <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
-  <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="github" revision="kk4.4" />
-  <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="kk4.4" />
-  <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="kk4.4" />
-  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="kk4.4" />
-  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="kk4.4" />
-  <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
-  <project path="hardware/samsung" name="SlimRoms/hardware_samsung" remote="github" revision="kk4.4" />
-  <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
-  <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
-  <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
-  <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
-  <project path="kernel/asus/flo" name="SlimRoms/kernel_asus_flo" remote="github" revision="kk4.4" />
-  <project path="kernel/asus/grouper" name="SlimRoms/kernel_asus_grouper" remote="github" revision="kk4.4" />
-  <project path="kernel/lge/msm8974" name="SlimRoms/kernel_lge_msm8974" remote="github" revision="kk4.4" />
-  <project path="kernel/lge/mako" name="SlimRoms/kernel_lge_mako" remote="github" revision="kk4.4" />
-  <project path="kernel/lge/hammerhead" name="SlimRoms/kernel_lge_hammerhead" remote="github" revision="kk4.4" />
-  <project path="kernel/samsung/manta" name="SlimRoms/kernel_samsung_manta" remote="github" revision="kk4.4" />
-  <project path="kernel/samsung/smdk4412" name="SlimRoms/kernel_samsung_smdk4412" remote="github" revision="kk4.4" />
-  <project path="kernel/samsung/tuna" name="SlimRoms/kernel_samsung_tuna" remote="github" revision="kk4.4" />
-  <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="kk4.4" />
-  <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="kk4.4" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="kk4.4" />
-  <project path="packages/apps/InCallUI" name="SlimRoms/packages_apps_InCallUI" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="kk4.4" />
-  <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="kk4.4" />
-  <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="kk4.4" />
-  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="kk4.4" />
-  <project path="packages/providers/CalendarProvider" name="SlimRoms/packages_providers_CalendarProvider" remote="github" revision="kk4.4" />
-  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="kk4.4" />
-  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="kk4.4" />
-  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="kk4.4" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="kk4.4" />
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="kk4.4" />
-  <project path="vendor/qcom" name="SlimRoms/proprietary_vendor_qcom" remote="github" revision="kk4.4" />
+  <project path="art" name="android_art" remote="slim" revision="kk4.4"  />
+  <project path="bionic" name="android_bionic" remote="slim" revision="kk4.4" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
+  <project path="dalvik" name="android_dalvik" remote="slim" revision="kk4.4" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="slim" revision="kk4.4" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="slim" revision="kk4.4" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="slim" revision="kk4.4" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="slim" revision="kk4.4" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="slim" revision="kk4.4" />
+  <project path="external/busybox" name="android_external_busybox" remote="slim" revision="kk4.4" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="slim" revision="kk4.4" />
+  <project path="external/clang" name="android_external_clang" remote="slim" revision="kk4.4"  />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="slim" revision="kk4.4"  />
+  <project path="external/flac" name="android_external_flac" remote="slim" revision="kk4.4"  />
+  <project path="external/google/google_play_services" name="android_external_google_google_play_services" remote="slim" revision="kk4.4" />
+  <project path="external/koush/Superuser" name="Superuser" remote="slim" revision="kk4.4" />
+  <project path="external/llvm" name="android_external_llvm" remote="slim" revision="kk4.4" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="slim" revision="kk4.4" />
+  <project path="external/skia" name="android_external_skia" remote="slim" revision="kk4.4" />
+  <project path="external/srec" name="android_external_srec" remote="slim" revision="kk4.4" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="slim" revision="kk4.4" />
+  <project path="external/zlib" name="android_external_zlib" remote="slim" revision="kk4.4" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="slim" revision="kk4.4" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="slim" revision="kk4.4" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="slim" revision="kk4.4" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="slim" revision="kk4.4" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="slim" revision="kk4.4" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" revision="kk4.4" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="kk4.4" />
+  <project path="hardware/ril" name="hardware_ril" remote="slim" revision="kk4.4" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="kk4.4" />
+  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="slim" revision="kk4.4" />
+  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="slim" revision="kk4.4" />
+  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="slim" revision="kk4.4" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="kk4.4" />
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="slim" revision="kk4.4" />
+  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="slim" revision="kk4.4" />
+  <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412" remote="slim" revision="kk4.4" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="slim" revision="kk4.4" />
+  <project path="libcore" name="platform_libcore" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Provision" name="packages_apps_Provision" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" revision="kk4.4" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="kk4.4" />
+  <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="slim" revision="kk4.4" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="kk4.4" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slim" revision="kk4.4" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" revision="kk4.4" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="kk4.4" />
+  <project path="prebuilt" name="android_prebuilt" remote="slim" revision="kk4.4" />
+  <project path="system/extras" name="android_system_extras" remote="slim" revision="kk4.4" />
+  <project path="system/netd" name="android_system_netd" remote="slim" revision="kk4.4" />
+  <project path="system/vold" name="android_system_vold" remote="slim" revision="kk4.4" />
+  <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="slim" revision="kk4.4" />
   <!-- SlimRoms CAF -->
-  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
-  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" remote="github" revision="kk4.4-caf" />
-  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" remote="github" revision="kk4.4-caf" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="kk4.4-caf" />
-  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="kk4.4-caf" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slim" revision="kk4.4-caf" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" revision="kk4.4-caf" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" revision="kk4.4-caf" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" revision="kk4.4-caf" />
+  <project path="frameworks/av" name="frameworks_av" remote="slim" revision="kk4.4-caf" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" revision="kk4.4-caf" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" revision="kk4.4-caf" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="kk4.4-caf" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="kk4.4-caf" />
 
   <!-- Team-OSE -->
   <project path="build" name="build" remote="ose" revision="ose" >
@@ -486,56 +470,5 @@
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
     <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
   </project>
-  <!-- Devices -->
-  <project path="device/asus/flo" name="device_asus_flo" remote="ose" revision="ose" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="ose" revision="ose" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="ose" revision="ose" />
-  <project path="device/htc/dlx" name="device_htc_dlx" remote="ose" revision="ose" />
-  <project path="device/htc/m7" name="device_htc_m7" remote="ose" revision="ose" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="ose" revision="ose" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="ose" revision="ose" />
-  <project path="device/lge/d800" name="device_lge_d800" remote="ose" revision="ose" />
-  <project path="device/lge/d801" name="device_lge_d801" remote="ose" revision="ose" />
-  <project path="device/lge/d802" name="device_lge_d802" remote="ose" revision="ose" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="ose" revision="ose" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="ose" revision="ose" />
-  <project path="device/lge/vs980" name="device_lge_vs980" remote="ose" revision="ose" />
-  <project path="device/motorola/falcon" name="device_motorola_falcon" remote="ose" revision="ose" />
-  <project path="device/motorola/ghost" name="device_motorola_ghost" remote="ose" revision="ose" />
-  <project path="device/motorola/msm8226-common" name="device_motorola_msm8226-common" remote="ose" revision="ose" />
-  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="ose" revision="ose" />
-  <project path="device/motorola/msm8960dt-common" name="device_motorola_msm8960dt-common" remote="ose" revision="ose" />
-  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ose" revision="ose" />
-  <project path="device/motorola/vanquish" name="device_motorola_vanquish" remote="ose" revision="ose" />
-  <project path="device/motorola/xt907" name="device_motorola_xt907" remote="ose" revision="ose" />
-  <project path="device/samsung/d2lte" name="device_samsung_d2lte" remote="ose" revision="ose" />
-  <project path="device/samsung/jflte" name="device_samsung_jflte" remote="ose" revision="ose" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="ose" revision="ose" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="ose" revision="ose" />
-  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="ose" revision="ose" />
-  <project path="device/samsung/t0lteatt" name="device_samsung_t0lteatt" remote="ose" revision="ose" />
-  <project path="device/samsung/t0ltetmo" name="device_samsung_t0ltetmo" remote="ose" revision="ose" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="ose" revision="ose" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="ose" revision="ose" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="ose" revision="ose" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="ose" revision="ose" />
-  <!-- Kernels -->
-  <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="ose" revision="ose" />
-  <project path="kernel/motorola/msm8960dt-common" name="kernel_motorola_msm8960dt-common" remote="ose" revision="ose" />
-
-  <!-- TheMuppets -->
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-11.0" />
-  <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-11.0" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-11.0" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-11.0" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-11.0" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-11.0" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-11.0" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="wip" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-11.0" />
 
 </manifest>
