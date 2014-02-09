@@ -259,7 +259,6 @@
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -348,7 +347,6 @@
 
   <!-- CM -->
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
-  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
 
   <!-- OmniRom -->
@@ -386,6 +384,7 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="slim" revision="kk4.4" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="kk4.4" />
+  <project path="hardware/cm" name="hardware_cm" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="kk4.4" />
@@ -455,6 +454,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="ose" revision="ose" />
   <project path="packages/apps/OSEPapers" name="packages_apps_OSEPapers" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
