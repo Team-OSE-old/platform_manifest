@@ -361,11 +361,6 @@
   <project path="bionic" name="android_bionic" remote="slim" revision="kk4.4" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
   <project path="dalvik" name="android_dalvik" remote="slim" revision="kk4.4" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="slim" revision="kk4.4" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="slim" revision="kk4.4" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="slim" revision="kk4.4" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="slim" revision="kk4.4" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="slim" revision="kk4.4" />
   <project path="external/busybox" name="android_external_busybox" remote="slim" revision="kk4.4" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="slim" revision="kk4.4" />
   <project path="external/clang" name="android_external_clang" remote="slim" revision="kk4.4"  />
@@ -397,14 +392,6 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="kk4.4" />
-  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="slim" revision="kk4.4" />
-  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="slim" revision="kk4.4" />
-  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="slim" revision="kk4.4" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="kk4.4" />
-  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="slim" revision="kk4.4" />
-  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="slim" revision="kk4.4" />
-  <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412" remote="slim" revision="kk4.4" />
-  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="slim" revision="kk4.4" />
   <project path="libcore" name="platform_libcore" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="kk4.4" />
