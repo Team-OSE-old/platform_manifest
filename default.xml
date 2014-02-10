@@ -351,7 +351,6 @@
 
   <!-- OmniRom -->
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" revision="android-4.4" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omni" revision="android-4.4" />
 
   <!-- SlimRoms -->
@@ -455,6 +454,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="ose" revision="ose" />
+  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="ose" revision="ose" />
   <project path="packages/apps/OSEPapers" name="packages_apps_OSEPapers" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
