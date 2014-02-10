@@ -382,10 +382,13 @@
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="kk4.4" />
   <project path="hardware/cm" name="hardware_cm" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="kk4.4" />
   <project path="hardware/ril" name="hardware_ril" remote="slim" revision="kk4.4" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="kk4.4" />
