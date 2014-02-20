@@ -457,7 +457,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.9" name="linaro-arm-eabi-4.9" remote="ose" revision="master" />
   <project path="scripts" name="OSE" remote="ose" revision="ose" >
     <copyfile src="ose_nightly.sh" dest="ose_nightly.sh" />
-    <copyfile src="ose_weekly.sh" dest="ose_weekly.sh" />
   </project>
   <project path="system/core" name="system_core" remote="ose" revision="ose" />
   <project path="system/media" name="system_media" remote="ose" revision="ose" />
