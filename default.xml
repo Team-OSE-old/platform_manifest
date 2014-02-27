@@ -356,7 +356,7 @@
   <!-- OmniRom -->
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omni" revision="android-4.4" />
-
+  
   <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="kk4.4"  />
   <project path="bionic" name="android_bionic" remote="slim" revision="kk4.4" />
@@ -423,7 +423,6 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="kk4.4" />
   <project path="prebuilt" name="android_prebuilt" remote="slim" revision="kk4.4" />
-  <project path="system/extras" name="android_system_extras" remote="slim" revision="kk4.4" />
   <project path="system/netd" name="android_system_netd" remote="slim" revision="kk4.4" />
   <project path="system/vold" name="android_system_vold" remote="slim" revision="kk4.4" />
   <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="slim" revision="kk4.4" />
@@ -459,6 +458,7 @@
     <copyfile src="ose_nightly.sh" dest="ose_nightly.sh" />
   </project>
   <project path="system/core" name="system_core" remote="ose" revision="ose" />
+  <project path="system/extras" name="system_extras" remote="ose" revision="ose" />
   <project path="system/media" name="system_media" remote="ose" revision="ose" />
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
     <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
