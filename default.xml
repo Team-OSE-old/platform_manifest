@@ -322,6 +322,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="ChameleonOS/android_packages_wallpapers_PhaseBeam" remote="gh" revision="kitkat" />
 
   <!-- CM -->
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
 
