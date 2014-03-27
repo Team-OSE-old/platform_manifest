@@ -10,9 +10,6 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <remote  name="cos"
-           fetch="git://github.com/ChameleonOS/" />
-
   <remote  name="gh"
            fetch="git://github.com/" />
 
@@ -22,14 +19,8 @@
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth" />
 
-  <remote  name="omni"
-           fetch="git://github.com/omnirom/" />
-
   <remote  name="ose"
            fetch="git://github.com/Team-OSE/" />
-
-  <remote  name="rq"
-           fetch="git://github.com/razrqcom-dev-team/" />
 
   <remote  name="sm"
            fetch="git://github.com/SaberMod/" />
@@ -328,11 +319,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- ChameleonOS -->
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cos" revision="kitkat" />
+  <project path="packages/wallpapers/PhaseBeam" name="ChameleonOS/android_packages_wallpapers_PhaseBeam" remote="gh" revision="kitkat" />
 
   <!-- CM -->
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
 
   <!-- Gummy -->
@@ -367,7 +357,7 @@
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
 
   <!-- OmniRom -->
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
+  <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="gh" revision="android-4.4" />
 
   <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="kk4.4"  />
@@ -463,6 +453,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
+  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="ose" revision="ose" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="ose" revision="ose" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="ose" revision="ose" />
   <project path="packages/apps/OSEPapers" name="packages_apps_OSEPapers" remote="ose" revision="ose" />
