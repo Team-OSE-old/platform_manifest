@@ -456,8 +456,7 @@
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="ose" revision="ose" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="ose" revision="ose" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="ose" revision="ose" />
-  <project path="packages/apps/OSEPapers" name="packages_apps_OSEPapers" remote="ose" revision="ose" />
-  <project path="packages/apps/OSEStats" name="packages_apps_LiquidStats" remote="ose" revision="ose" />
+  <project path="packages/apps/OSEStats" name="packages_apps_OSEStats" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="packages/wallpapers/OSE" name="OSE_wallpapers" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
