@@ -455,6 +455,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="ose" revision="ose" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ose" revision="ose" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="ose" revision="ose" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="ose" revision="ose" />
   <project path="packages/apps/OSEStats" name="packages_apps_OSEStats" remote="ose" revision="ose" />
