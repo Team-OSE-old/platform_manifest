@@ -436,7 +436,6 @@
   <project path="prebuilt" name="android_prebuilt" remote="slim" revision="kk4.4" />
   <project path="system/netd" name="android_system_netd" remote="slim" revision="kk4.4" />
   <project path="system/vold" name="android_system_vold" remote="slim" revision="kk4.4" />
-  <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="slim" revision="kk4.4" />
   <!-- SlimRoms CAF -->
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slim" revision="kk4.4-caf" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" revision="kk4.4-caf" />
