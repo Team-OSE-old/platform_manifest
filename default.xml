@@ -348,6 +348,7 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
 
   <!-- Gummy -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="TEAM-Gummy/prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="gh" revision="kk4.4" groups="linux,arm" />
@@ -382,6 +383,7 @@
 
   <!-- OmniRom -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="gh" revision="android-4.4" />
+  <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="gh" revision="android-4.4" />
 
   <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="kk4.4"  />
@@ -433,7 +435,6 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="kk4.4" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="kk4.4" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="kk4.4" />
   <project path="prebuilt" name="android_prebuilt" remote="slim" revision="kk4.4" />
@@ -476,5 +477,7 @@
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
     <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
   </project>
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="ose" revision="ose" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="ose" revision="ose" />
 
 </manifest>
