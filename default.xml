@@ -325,6 +325,7 @@
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" />
+  <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
@@ -349,6 +350,8 @@
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
 
   <!-- Gummy -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="TEAM-Gummy/prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="gh" revision="kk4.4" groups="linux,arm" />
@@ -402,7 +405,6 @@
   <project path="external/icu4c" name="android_external_icu4c" remote="slim" revision="kk4.4" />
   <project path="external/koush/Superuser" name="Superuser" remote="slim" revision="kk4.4" />
   <project path="external/libxml2" name="android_external_libxml2" remote="slim" revision="kk4.4" />
-  <project path="external/skia" name="android_external_skia" remote="slim" revision="kk4.4" />
   <project path="external/srec" name="android_external_srec" remote="slim" revision="kk4.4" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slim" revision="kk4.4" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="slim" revision="kk4.4" />
@@ -478,7 +480,5 @@
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
     <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
   </project>
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="ose" revision="ose" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="ose" revision="ose" />
 
 </manifest>
