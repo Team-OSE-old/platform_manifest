@@ -327,26 +327,14 @@
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" />
   <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" />
-  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf-new" name="android_hardware_qcom_media-caf-new" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
-  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
-  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
-  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
@@ -388,7 +376,6 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="ls" revision="kitkat" />
   <project path="libcore" name="android_libcore" remote="ls" revision="kitkat" />
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
-  
 
   <!-- OmniRom -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="gh" revision="android-4.4" />
@@ -418,7 +405,19 @@
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="slim" revision="kk4.4" />
   <project path="frameworks/rs" name="frameworks_rs" remote="slim" revision="kk4.4" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" revision="kk4.4" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="kk4.4" />
+  <project path="hardware/cm" name="hardware_cm" remote="slim" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="slim" revision="kk4.4" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="kk4.4" />
