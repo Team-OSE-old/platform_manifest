@@ -4,9 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="bb"
-           fetch="https://bitbucket.org/" />
-
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
@@ -21,9 +18,6 @@
 
   <remote  name="ose"
            fetch="git://github.com/Team-OSE/" />
-
-  <remote  name="sm"
-           fetch="git://github.com/SaberMod/" />
 
   <remote  name="slim"
            fetch="git://github.com/SlimRoms/"
@@ -288,8 +282,6 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -342,7 +334,7 @@
   <!-- Gummy -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="TEAM-Gummy/prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="gh" revision="kk4.4" groups="linux,arm" />
 
-  <!-- Linaro & SaberMod -->
+  <!-- Linaro -->
   <project path="external/chromium" name="platform/external/chromium" remote="linaro" revision="linaro_android_4.4.2" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="linaro_android_4.4.2" />
   <project path="external/embunit" name="platform/external/embunit" remote="linaro" revision="linaro_android_4.4.2" />
@@ -360,12 +352,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="linaro" revision="linaro_android_4.4.2" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="linaro" revision="linaro_android_4.4.2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LN" name="Cl3Kener/LINARO-HAMMER" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="GCC_SaberMod" remote="sm" revision="4.9.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="Cl3Kener/sm-arm-eabi-4.7" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="Cl3Kener/sm-arm-eabi-4.8" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="Cl3Kener/sm-arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="Cl3Kener/sm-arm-eabi-4.10" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-androideabi-4.9" name="Cl3Kener/sm-arm-androideabi-4.9" remote="bb" revision="master" />
 
   <!-- LiquidSmooth -->
   <project path="art" name="android_art" remote="ls" revision="kitkat" />
@@ -376,6 +362,16 @@
   <!-- OmniRom -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="gh" revision="android-4.4" />
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="gh" revision="android-4.4" />
+
+  <!-- UberUtils -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="UBERUTILS/arm-linux-androideabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERUTILS/arm-linux-androideabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
 
   <!-- SlimRoms -->
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
