@@ -314,6 +314,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="ChameleonOS/android_packages_wallpapers_PhaseBeam" remote="gh" revision="kitkat" />
 
   <!-- CM -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" />
@@ -363,18 +364,7 @@
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="gh" revision="android-4.4" />
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="gh" revision="android-4.4" />
 
-  <!-- UberUtils -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="UBERUTILS/arm-linux-androideabi-4.7" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERUTILS/arm-linux-androideabi-4.9" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
-
   <!-- SlimRoms -->
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="kk4.4" />
   <project path="external/busybox" name="android_external_busybox" remote="slim" revision="kk4.4" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="slim" revision="kk4.4" />
@@ -477,5 +467,15 @@
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" >
     <copyfile src="tools/build-ose.sh" dest="build-ose.sh" />
   </project>
+
+  <!-- UberUtils -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="UBERUTILS/arm-linux-androideabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERUTILS/arm-linux-androideabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
 
 </manifest>
