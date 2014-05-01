@@ -426,7 +426,6 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="kk4.4" />
-  <project path="prebuilts" name="android_prebuilt" remote="slim" revision="kk4.4" />
   <project path="system/netd" name="android_system_netd" remote="slim" revision="kk4.4" />
   <project path="system/vold" name="android_system_vold" remote="slim" revision="kk4.4" />
   <!-- SlimRoms CAF -->
