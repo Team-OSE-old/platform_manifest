@@ -370,8 +370,10 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="slim" revision="kk4.4" />
   <project path="external/clang" name="android_external_clang" remote="slim" revision="kk4.4"  />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="slim" revision="kk4.4"  />
+  <project path="external/exfat" name="android_external_exfat" remote="slim" revision="kk4.4" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" revision="kk4.4"  />
   <project path="external/flac" name="android_external_flac" remote="slim" revision="kk4.4"  />
+  <project path="external/fuse" name="android_external_fuse" remote="slim" revision="kk4.4" />
   <project path="external/google/google_play_services" name="android_external_google_google_play_services" remote="slim" revision="kk4.4" />
   <project path="external/icu4c" name="android_external_icu4c" remote="slim" revision="kk4.4" />
   <project path="external/koush/Superuser" name="Superuser" remote="slim" revision="kk4.4" />
