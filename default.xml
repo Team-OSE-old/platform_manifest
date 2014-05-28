@@ -316,8 +316,10 @@
   <!-- CM -->
   <project path="external/android-visualizer" name="android-visualizer" remote="cm" revision="cm-11.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-11.0" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ls" revision="kitkat" />
@@ -442,7 +444,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="kk4.4-caf" />
 
   <!-- Team-OSE -->
-  <project path="bionic" name="bionic" remote="ose" revision="ose" />
+  <project path="bionic" name="AOSPAL/android_bionic" remote="gh" revision="kitkat" />
   <project path="build" name="build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
