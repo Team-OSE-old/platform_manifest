@@ -310,10 +310,14 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!-- AOSPAL -->
+  <project path="bionic" name="AOSPAL/android_bionic" remote="gh" revision="kitkat" />
+
   <!-- ChameleonOS -->
   <project path="packages/wallpapers/PhaseBeam" name="ChameleonOS/android_packages_wallpapers_PhaseBeam" remote="gh" revision="kitkat" />
 
   <!-- CM -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="external/android-visualizer" name="android-visualizer" remote="cm" revision="cm-11.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-11.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
@@ -322,7 +326,6 @@
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" />
@@ -361,6 +364,7 @@
   <project path="art" name="android_art" remote="ls" revision="kitkat" />
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="ls" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ls" revision="kitkat" />
   <project path="libcore" name="android_libcore" remote="ls" revision="kitkat" />
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
 
@@ -369,7 +373,6 @@
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="gh" revision="android-4.4" />
 
   <!-- SlimRoms -->
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="kk4.4" />
   <project path="external/busybox" name="android_external_busybox" remote="slim" revision="kk4.4" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="slim" revision="kk4.4" />
@@ -444,7 +447,6 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="kk4.4-caf" />
 
   <!-- Team-OSE -->
-  <project path="bionic" name="AOSPAL/android_bionic" remote="gh" revision="kitkat" />
   <project path="build" name="build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
