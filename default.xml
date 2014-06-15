@@ -365,7 +365,6 @@
 
   <!-- LiquidSmooth -->
   <project path="art" name="android_art" remote="ls" revision="kitkat" />
-  <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="ls" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ls" revision="kitkat" />
   <project path="libcore" name="android_libcore" remote="ls" revision="kitkat" />
@@ -455,6 +454,7 @@
   <project path="build" name="build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="dalvik" name="dalvik" remote="ose" revision="ose" />
   <project path="development" name="development" remote="ose" revision="ose" />
   <project path="frameworks/av" name="frameworks_av" remote="ose" revision="ose" />
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
