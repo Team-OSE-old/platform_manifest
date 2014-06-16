@@ -364,10 +364,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LN" name="UBERUTILS/LINARO-HAMMER" remote="gh" revision="master" />
 
   <!-- LiquidSmooth -->
-  <project path="art" name="android_art" remote="ls" revision="kitkat" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="ls" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ls" revision="kitkat" />
-  <project path="libcore" name="android_libcore" remote="ls" revision="kitkat" />
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
 
   <!-- OmniRom -->
@@ -392,6 +389,7 @@
   <project path="external/libsepol" name="android_external_libsepol" remote="slim" revision="kk4.4" />
   <project path="external/libxml2" name="android_external_libxml2" remote="slim" revision="kk4.4" />
   <project path="external/openssl" name="android_external_openssl" remote="slim" revision="kk4.4" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="slim" revision="kk4.4" />
   <project path="external/srec" name="android_external_srec" remote="slim" revision="kk4.4" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slim" revision="kk4.4" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="slim" revision="kk4.4" />
@@ -451,6 +449,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="kk4.4-caf" />
 
   <!-- Team-OSE -->
+  <project path="art" name="art" remote="ose" revision="ose" />
   <project path="build" name="build" remote="ose" revision="ose" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -460,6 +459,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
+  <project path="libcore" name="libcore" remote="ose" revision="ose" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ose" revision="ose" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="ose" revision="ose" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="ose" revision="ose" />
