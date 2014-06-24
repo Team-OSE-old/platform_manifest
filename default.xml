@@ -373,7 +373,7 @@
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="gh" revision="android-4.4" />
 
   <!-- SlimRoms -->
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
+  <project path="bootable/recovery" name="Tasssadar/Team-Win-Recovery-Project" remote="gh" revision="master" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="kk4.4" />
   <project path="external/busybox" name="android_external_busybox" remote="slim" revision="kk4.4" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="slim" revision="kk4.4" />
