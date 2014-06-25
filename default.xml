@@ -487,7 +487,5 @@
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
-
-  <project path="prebuilts/gcc/linux-x86/arm/boosted-arm-eabi-4.9" name="boostedtc/arm_boosted-arm-eabi-4.9" remote="gh" revision="master" />
   
 </manifest>
