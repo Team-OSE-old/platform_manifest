@@ -432,7 +432,6 @@
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" revision="kk4.4" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="kk4.4" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="slim" revision="kk4.4" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="kk4.4" />
   <project path="system/netd" name="android_system_netd" remote="slim" revision="kk4.4" />
@@ -465,6 +464,7 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="ose" revision="ose" />
   <project path="packages/apps/OSEStats" name="packages_apps_OSEStats" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="ose" revision="ose" />
   <project path="packages/wallpapers/OSE" name="OSE_wallpapers" remote="ose" revision="ose" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose" />
