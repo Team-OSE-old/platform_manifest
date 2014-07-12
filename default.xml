@@ -31,9 +31,6 @@
            sync-c="true"
            sync-j="16" />
 
-  <!-- AICP -->
-  <project path="packages/apps/EOSWeather" name="AICP/packages_apps_EOSWeather" remote="gh" revision="kitkat" />
-
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -461,6 +458,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
   <project path="libcore" name="libcore" remote="ose" revision="ose" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ose" revision="ose" />
+  <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="ose" revision="ose" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="ose" revision="ose" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="ose" revision="ose" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="ose" revision="ose" />
