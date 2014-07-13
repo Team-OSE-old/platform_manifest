@@ -329,8 +329,6 @@
   <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" />
@@ -441,6 +439,8 @@
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" revision="kk4.4-caf" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" revision="kk4.4-caf" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" revision="kk4.4-caf" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" revision="kk4.4-caf" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" revision="kk4.4-caf" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="slim" revision="kk4.4-caf" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="kk4.4-caf" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="kk4.4-caf" />
