@@ -231,7 +231,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -456,6 +455,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="frameworks/native" name="frameworks_native" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="ose" revision="ose" />
   <project path="libcore" name="libcore" remote="ose" revision="ose" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ose" revision="ose" />
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="ose" revision="ose" />
