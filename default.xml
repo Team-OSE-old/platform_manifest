@@ -368,7 +368,6 @@
   <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
 
   <!-- OmniRom -->
-  <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="gh" revision="android-4.4" />
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="gh" revision="android-4.4" />
 
   <!-- SlimRoms -->
