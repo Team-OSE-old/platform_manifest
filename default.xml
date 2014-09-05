@@ -345,22 +345,22 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="TEAM-Gummy/prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="gh" revision="kk4.4" groups="linux,arm" />
 
   <!-- Linaro -->
-  <project path="external/chromium" name="platform/external/chromium" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/embunit" name="platform/external/embunit" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/iputils" name="platform/external/iputils" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/llvm" name="platform/external/llvm" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/openssh" name="platform/external/openssh" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="external/v8" name="platform/external/v8" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="linaro" revision="android-4.4.4_r2.0.1" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="linaro" revision="android-4.4.4_r2.0.1" />
+  <project path="external/chromium" name="platform/external/chromium" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/embunit" name="platform/external/embunit" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/iputils" name="platform/external/iputils" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/llvm" name="platform/external/llvm" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/openssh" name="platform/external/openssh" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="external/v8" name="platform/external/v8" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="linaro" revision="linaro_android_4.4.4" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="linaro" revision="linaro_android_4.4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LN" name="UBERUTILS/LINARO-HAMMER" remote="gh" revision="master" />
 
   <!-- LiquidSmooth -->
